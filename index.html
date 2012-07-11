@@ -2,11 +2,15 @@
 <html>
 	<head>
 		<script type="text/javascript">
-			(function(){
-				window.location = 'http://www.google.com';
-			})();
+			function visit(address){
+				window.location = 'http://'+address.value;
+			};
 		</script>
 	</head>
 	<body>
+		Visit this page in WebView<br>
+		<form action="javascript:visit(this.address);">
+		http://<input type="text" id="address"  name="address" /> <input type="submit" value="Go!" />
+		</form>
 	</body>
 </html>

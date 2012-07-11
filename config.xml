@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns		= "http://www.w3.org/ns/widgets"
 		xmlns:gap	= "http://phonegap.com/ns/1.0"
-		id			= "com.phonegap.getting.started"
+		id			= "com.phonegap.webview"
 		version 	= "1.0.0">
 
-	<name>Testna aplikacija</name>
+	<name>WebViewMe</name>
 
 	<description>
-		Test 1 2 3, opis aplikacije
+		Visit any page in WebView
 	</description>
 
 	<author href="http://github.com/borissamardzija"
